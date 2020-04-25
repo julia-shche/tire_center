@@ -39,10 +39,10 @@
 	<tbody>
 	    <?php
 	
-		$servername = "localhost"; // локалхост
-        $username = "root"; // имя пользователя
-        $password = ""; // пароль если существует
-        $bdname = "db_inf"; // база данных
+	$servername = "localhost"; 
+        $username = "root"; 
+        $password = ""; 
+        $bdname = "db_inf"; 
 
         $conn = new mysqli($servername, $username, $password, $bdname);
 	
